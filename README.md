@@ -38,7 +38,7 @@ json_viewer: ^最新版本号
 
 ## Usage / 用法示例
 ```dart
-import 'package:json_viewer/kurban_json_viewer.dart';
+import 'package:kurban_json_viewer/kurban_json_viewer.dart';
 
 final Map<String, dynamic> jsonData = {
   "name": "Kurban",
@@ -47,7 +47,7 @@ final Map<String, dynamic> jsonData = {
   "skills": ["Flutter", "Dart", "JSON"]
 };
 
-KurbanJsonViewer(
+JsonViewer(
   jsonData: jsonData,
 )
 ```
@@ -66,7 +66,7 @@ All colors use theme colors automatically.
 
 ### 自定义行渲染示例
 ```dart
-KurbanJsonViewer(
+JsonViewer(
   jsonData: jsonData,
   rowBuilder: (context, key, value, type, path, keyStyle, valueStyle) {
     return Row(
