@@ -38,7 +38,7 @@ json_viewer: ^最新版本号
 
 ## Usage / 用法示例
 ```dart
-import 'package:json_viewer/json_viewer.dart';
+import 'package:json_viewer/kurban_json_viewer.dart';
 
 final Map<String, dynamic> jsonData = {
   "name": "Kurban",

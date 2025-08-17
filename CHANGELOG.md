@@ -1,3 +1,7 @@
-## 0.0.1
+## 1.0.1
 
-* TODO: Describe initial release.
+* Fix the project structure
+
+## 1.0.0
+
+* Initial release of the project.

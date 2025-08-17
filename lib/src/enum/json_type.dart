@@ -16,4 +16,3 @@ enum JsonType {
   /// 原始值（字符串、数字、布尔等） Primitive value (string, number, bool, etc.)
   primitive,
 }
-

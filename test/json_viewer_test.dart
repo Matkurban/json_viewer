@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kurban_json_view/json_viewer.dart';
+import 'package:kurban_json_viewer/kurban_json_viewer.dart';
 
 void main() {
   testWidgets('正常渲染Map类型JSON', (WidgetTester tester) async {

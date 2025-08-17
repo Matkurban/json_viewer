@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kurban_json_view/src/enum/json_type.dart';
-import 'package:kurban_json_view/src/widgets/json_row_view.dart';
+import 'package:kurban_json_viewer/src/enum/json_type.dart';
+import 'package:kurban_json_viewer/src/widgets/json_row_view.dart';
 
 /// JSON原始值节点渲染类
 /// Renderer for JSON primitive value nodes
@@ -8,39 +8,51 @@ class JsonPrimitiveView extends StatelessWidget {
   /// 当前原始值的key名
   /// Key name of current primitive value
   final String keyName;
+
   /// 当前原始值
   /// Value of current primitive node
   final dynamic value;
+
   /// 当前节点路径
   /// Path of current node
   final String path;
+
   /// 当前节点层级
   /// Level of current node
   final int level;
+
   /// 是否为最后一个节点
   /// Is last node
   final bool isLast;
+
   /// 主题色：key
   /// Theme color: key
   final Color keyColor;
+
   /// 主题色：字符串
   /// Theme color: string
   final Color stringColor;
+
   /// 主题色：数字
   /// Theme color: number
   final Color numberColor;
+
   /// 主题色：布尔
   /// Theme color: bool
   final Color boolColor;
+
   /// 主题色：普通值
   /// Theme color: value
   final Color valueColor;
+
   /// 字体大小
   /// Font size
   final double fontSize;
+
   /// 缩进宽度
   /// Indent width
   final double indentWidth;
+
   /// 行自定义构建器
   /// Custom row builder
   final Widget Function(
@@ -51,7 +63,8 @@ class JsonPrimitiveView extends StatelessWidget {
     String path,
     TextStyle keyStyle,
     TextStyle valueStyle,
-  )? rowBuilder;
+  )?
+  rowBuilder;
 
   const JsonPrimitiveView({
     super.key,
