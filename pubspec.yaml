@@ -1,6 +1,6 @@
 name: kurban_json_viewer
 description: "A Json To Widget Flutter project.is a JSON string display component that can customize many properties and the style of the display ."
-version: 1.0.1
+version: 1.0.2
 repository: "https://github.com/Matkurban/json_viewer.git"
 topics: [ widget ]
 
