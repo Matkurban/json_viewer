@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:json_viewer/src/enum/json_type.dart';
-import 'package:json_viewer/src/widgets/json_row_view.dart';
+import 'package:kurban_json_view/src/enum/json_type.dart';
+import 'package:kurban_json_view/src/widgets/json_row_view.dart';
 
 /// JSON原始值节点渲染类
 /// Renderer for JSON primitive value nodes

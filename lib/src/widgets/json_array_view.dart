@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json_viewer/src/enum/json_type.dart';
+import 'package:kurban_json_view/src/enum/json_type.dart';
 import 'json_node_view.dart';
 import 'json_row_view.dart';
 

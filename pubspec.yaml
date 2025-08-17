@@ -1,6 +1,6 @@
-name: json_viewer
+name: kurban_json_view
 description: "A Json To Widget Flutter project."
-version: 0.0.1
+version: 1.0.0
 repository: "https://github.com/Matkurban/json_viewer.git"
 topics: [ widget ]
 

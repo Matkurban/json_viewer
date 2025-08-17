@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:json_viewer/src/enum/json_type.dart';
-import 'package:json_viewer/src/widgets/json_node_view.dart';
+import 'package:kurban_json_view/src/enum/json_type.dart';
+import 'package:kurban_json_view/src/widgets/json_node_view.dart';
 
 /// JSON字符串可视化预览组件入口
 /// Main entry for JSON string visual preview widget

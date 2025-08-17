@@ -1,1 +1,1 @@
-export 'package:json_viewer/src/json_viewer.dart';
+export 'package:kurban_json_view/src/json_viewer.dart';
