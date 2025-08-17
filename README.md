@@ -29,7 +29,7 @@ A Flutter widget for visualizing JSON strings, supporting theme-based coloring, 
 ```yaml
 json_viewer:
   git:
-    url: https://github.com/your-repo/json_viewer.git
+    url: https://github.com/Matkurban/json_viewer.git
 ```
 或
 ```yaml
